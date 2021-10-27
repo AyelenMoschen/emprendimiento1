@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+html{
+	height: 160%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	min-height: 100%; 
+	 
+}
+
+.grid_container{
+	display: grid;
+	grid-template: 
+	"header" 100px
+	"navbar" 50px
+	"main"	auto
+	"sidebar" 200px
+	"footer" 30px
+	;
+}
+
+.header{
+	grid-area: header;
+	background-color: #70150e;
+}
+
+.logo{
+	margin-left: 5%;
+}
+
+.navbar{
+	grid-area: navbar;
+	background-color: #53b158;
+}
+
+.botonera{
+	display: inline;
+}
+
+.boto1{
+	width: 10%;
+	padding: 1%;
+	font-size: 19px;
+	text-decoration: none;
+	text-align: center;
+	float: right;
+	margin-right: 3%;
+	margin-left: 1%;
+	margin-top: 1%;
+	border-radius: 10px;
+	color: #000000;
+	background-color: rgba(252, 222, 42, 0.9); 
+	font-family: 'Montserrat', bold;
+	font-weight: bold;
+}
+
+.boto2{
+	width: 10%;
+	padding: 1%;
+	font-size: 19px;
+	text-decoration: none;
+	text-align: center;
+	float: right;
+	margin-right: 3%;
+	margin-left: 1%;
+	margin-top: -1%;
+	border-radius: 10px;
+	color: #000000;
+	background-color: rgba(252, 222, 42, 0.9); 
+	font-family: 'Montserrat', bold;
+	font-weight: bold;
+}
+
+.boto3{
+	width: 10%;
+	padding: 1%;
+	font-size: 19px;
+	text-decoration: none;
+	text-align: center;
+	float: right;
+	margin-right: 3%;
+	margin-left: 1%;
+	margin-top: -3%;
+	border-radius: 10px;
+	color: #000000;
+	background-color: rgba(252, 222, 42, 0.9); 
+	font-family: 'Montserrat', bold;
+	font-weight: bold;
+}
+
+.main{
+	grid-area: main;
+	background-color: #ffffff;
+}
+
+.ubi{
+	margin-left: 19%;
+	margin-top: 2%;
+}
+
+.boto4{
+	width: 44%;
+	padding: 1%;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	float: right;
+	margin-right: 37%;
+	margin-top: -1%;
+	border-radius: 10px;
+	color: #000000;
+	background-color: rgba(252, 222, 42, 0.7); 
+	font-family: 'Montserrat', bold;
+}
+
+.boto5{
+	width: 25%;
+	height: 53%;
+	padding: 1%;
+	font-size: 23px;
+	text-decoration: none;
+	text-align: center;
+	float: right;
+	margin-right: 5%;
+	margin-top: -35%;
+	border-radius: 10px;
+	color: #ffffff;
+	background-color: rgba(42, 99, 42, 0.9); 
+	font-family: 'Irish Grover', bold;
+}
+
+.boto6{
+	width: 75%;
+	padding: 1%;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	float: right;
+	margin-right: 13%;
+	margin-top: 10%;
+	border-radius: 10px;
+	color: #000000;
+	background-color: rgba(252, 222, 42, 0.9); 
+	font-family: 'Montserrat', bold;
+}
+
+
+.texto{
+	font-size: 17px;
+	font-family: 'Montserrat', bold;
+	text-align: left;
+	margin-left: 6%;
+}
+
+.negrita{
+	color: #130f40;
+	font-family: 'Montserrat', bold;
+	font-size: 19px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.negrita2{
+	color: #fcde2a;
+	font-family: 'Montserrat', bold;
+	font-size: 17px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.todos{
+	margin-top: 6%;
+}
+
+.cosmo{
+	margin-left: -10%;
+	margin-top: -38%;
+}
+
+.abajo{
+	margin-top: -18%;
+	margin-left: -10%;
+}
+
+.titulo{
+	font-family: 'Irish Grover', bold;
+	font-size: 29px;
+	margin-top: 3%;
+	margin-left: 22%;
+}
+
+.video{
+	margin-top: 3%;
+	width: 30%;
+	height: 80%;
+	margin-left: 65%;
+}
+
+.video2{
+	margin-top: -16%;
+	width: 30%;
+	height: 80%;
+	margin-left: 30%;
+
+}
+
+.footer{
+	grid-area: footer;
+	background-color: #70150e;
+}
+
+.floto{
+	margin-left: 4%;
+	margin-right: 8%;
+	margin-top: 1%;
+	float: left;
+	padding-right: 360px;		
+}
+
+.floto1{
+	float: right;
+	margin-right: auto;
+	padding-left: 720px;
+	margin-right: 3%;
+	margin-top: -3%;
+}
+
+@media (min-width: 1200px) {
+
+	.grid_container{
+
+		grid-template: 
+		"header 	header" 	140px 
+		"navbar 	navbar" 	50px
+		"sidebar 	main" 		auto
+		"footer 	footer" 	60px /
+		 200px 		auto;
+ 	}
+
+}
+
+
+@media (min-width: 1400px) {
+	.grid_container{
+		grid-template: 
+		"header 	header 	header" 	140px 
+		"navbar 	navbar 	navbar" 	100px
+		"main 		main 	main" 		600px
+		"footer 	footer 	footer" 	40px /
+		 200px 		auto 	200px;
+	}
+}
